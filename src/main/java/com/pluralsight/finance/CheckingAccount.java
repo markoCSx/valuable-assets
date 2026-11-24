@@ -1,6 +1,6 @@
 package com.pluralsight.finance;
 
-public class CheckingAccount implements BankAccount{
+public class CheckingAccount extends BankAccount{
     private double balance;
 
     public CheckingAccount(double balance) {

@@ -2,7 +2,7 @@ package com.pluralsight.finance;
 
 public class Car extends Vehicle{
 
-    public Car(String makeModel, Double initialCost, int initialMileage) {
+    public Car(String makeModel, double initialCost, int initialMileage) {
         super(makeModel, initialCost, initialMileage);
     }
 }

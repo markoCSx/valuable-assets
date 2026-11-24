@@ -1,7 +1,7 @@
 package com.pluralsight.finance;
 
-public interface BankAccount extends Valuable{
-    public void deposit(double amount);
-    public double withdraw(double amount);
-    public double getBalance();
+public abstract class BankAccount implements Valuable{
+    public abstract void deposit(double amount);
+    public abstract double withdraw(double amount);
+    public abstract double getBalance();
 }

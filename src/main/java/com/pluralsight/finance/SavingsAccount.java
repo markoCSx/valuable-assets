@@ -1,10 +1,10 @@
 package com.pluralsight.finance;
 
-public class SavingAccount implements BankAccount{
+public class SavingsAccount extends BankAccount{
     private double balance;
     private double interestRate = 0.033;
 
-    public SavingAccount(double balance) {
+    public SavingsAccount(double balance) {
         this.balance = balance;
     }
 

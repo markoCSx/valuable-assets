@@ -7,7 +7,7 @@ public class Vehicle implements Valuable{
     private int currentMileage;
     public static double DEPRECIATION_PER_MILE = 0.05;
 
-    public Vehicle(String makeModel, Double initialCost, int initialMileage) {
+    public Vehicle(String makeModel, double initialCost, int initialMileage) {
         this.makeModel = makeModel;
         this.initialCost = initialCost;
         this.initialMileage = initialMileage;
