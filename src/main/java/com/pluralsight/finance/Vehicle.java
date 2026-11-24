@@ -1,4 +1,4 @@
 package com.pluralsight.finance;
 
-public class Vehicle {
+public class Vehicle implements Valuable{
 }
